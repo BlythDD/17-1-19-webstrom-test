@@ -1,0 +1,83 @@
+
+
+.product-section{width: 100%;}
+
+
+
+.product-box .list-chest img{width: 100%;cursor:pointer;}
+.product-box .list-chest .introduction{display:none;position: absolute;z-index:100;min-width: 260px;max-width: 400px;padding:6px;line-height:18px;font-size:14px;background-color: #d2d2cf;box-shadow: 2px 2px 2px #8d8d8d;}
+
+.alliance-section{width: 100%;background-color: #f7f7f6;}
+.alliance-section .alliance-box{margin: 0 auto;padding:50px 0;overflow: hidden;}
+
+.alliance-section .china-map img{width: 100%;}
+.alliance-section .intro{width: 49%;float: right;padding: 20px 40px;}
+.alliance-section .intro .title{width: 100%;text-align: center;font-size: 30px;}
+.alliance-section .intro .title .fa-619ae3{text-shadow: 2px 2px 2px #4c69a0;}
+.alliance-section .intro .content{width: 100%;font-size: 22px;}
+
+.alliance-section .alliance-box{position: relative;}
+
+
+
+
+
+
+/*@media screen and (min-width: 796px) {*/
+    /*.product-section .product-box{width: 796px;}
+    .alliance-section .alliance-box{width: 796px;}
+    .product-box .list-chest .introduction-l{top:6%;left: 100%;}
+    .product-box .list-chest .introduction-r{top:62%;right: 100%;}
+}*/
+@media screen and (max-width: 796px) {
+    .product-section .product-box{width: 100%;height:auto;padding: 20px 0 100px;}
+    .alliance-section .alliance-box{width: 100%;}
+    .product-box .list-chest{width: 35%;position: relative;}
+    .product-box .list-chest:first-child{margin: 0 auto;}
+    .product-box .list-chest:last-child{margin: 0 auto;}
+    .product-box .list-chest+.list-chest{margin-top: 100px;}
+    .product-box .list-chest .introduction-l{top:110%;left: -33%;}
+    .product-box .list-chest .introduction-r{top:110%;right: -28%;}
+    /*.alliance-section .intro .content{width: 100%;font-size: 22px;margin-top: 75px;}*/
+    .alliance-section .intro .content{margin-top: 25px;}
+    .alliance-section .intro .content p{width: 100%;font-size: 14px;font-weight: 600;line-height: 40px;}
+    .alliance-section .china-map{width: 80%;margin: 0 auto;}
+    .alliance-section .intro{width: 100%;margin:0 auto;padding: 15px;font-size: 14px;}
+    .alliance-section .particulars{position: absolute;bottom: 3%;right: 10%;}
+}
+@media screen and (min-width: 796px) {
+
+    .product-section .product-box{width: 796px;height:460px;margin: 0 auto;overflow: hidden;}
+    .alliance-section .alliance-box{width: 796px;}
+    .product-box .list-chest{width: 18%;position: relative;}
+    .product-box .list-chest:first-child{float:left;margin: 130px 0 50px 10%;}
+    .product-box .list-chest:last-child{float:right;margin: 130px 10% 50px 0;}
+    .product-box .list-chest .introduction-l{top:110%;left: -42%;}
+    .product-box .list-chest .introduction-r{top:110%;right: -42%;}
+    /*.alliance-section .intro .content{width: 100%;font-size: 22px;margin-top: 75px;}*/
+    .alliance-section .intro .content{margin-top: 25px;}
+    .alliance-section .china-map{width: 40%;float: left;}
+    .alliance-section .intro{width: 60%;float: right;padding: 20px 0 20px 40px;}
+    .alliance-section .intro .content p{width: 100%;font-size: 24px;font-weight: 600;line-height: 40px;}
+    .alliance-section .particulars{position: absolute;bottom: 12%;right: 18%;}
+}
+@media (min-width: 1024px) {
+    .product-section .product-box{width: 1240px;}
+    .alliance-section .alliance-box{width: 1240px;}
+    .product-box .list-chest .introduction-l{top:6%;left: 100%;}
+    .product-box .list-chest .introduction-r{top:62%;right: 100%;}
+    /*.alliance-section .intro .content{width: 100%;font-size: 22px;margin-top: 75px;}*/
+    .alliance-section .intro .content{margin-top: 45px;}
+    .alliance-section .china-map{width: 44%;float: left;padding-left: 30px;}
+    .alliance-section .intro{width: 49%;float: right;padding: 20px 40px;}
+}
+@media screen and (min-width: 1240px) {
+    .product-section .product-box{width: 1240px;}
+    .alliance-section .alliance-box{width: 1240px;}
+    .product-box .list-chest .introduction-l{top:6%;left: 100%;}
+    .product-box .list-chest .introduction-r{top:62%;right: 100%;}
+    /*.alliance-section .intro .content{width: 100%;font-size: 22px;margin-top: 75px;}*/
+    .alliance-section .intro .content{margin-top: 75px;}
+    .alliance-section .china-map{width: 49%;float: left;}
+    .alliance-section .intro{width: 49%;float: right;padding: 20px 40px;}
+}

@@ -1,0 +1,1 @@
+<div class="introduction introduction-r s-animated" data-animation-class="fadeInRight" data-an-offset="400">

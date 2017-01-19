@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jQuery-2.2.0.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="content" style="text-align: center;"> 
+			<h1 class="item"></h1>
+		    <div>
+		    	发布时间
+		    	<p class="time"></p>
+		    </div>
+		    <img src="" class="pic"/>
+		    <p class="txt"></p>
+		</div>
+	</body>
+	<script>
+		$.ajax({
+			type:"get",
+			url:"test.txt",
+			success:function(data){
+				$(".item").html(data.item);
+				$(".time").html(data.time);
+				$(".pic").attr("src",data.img);
+				$(".txt").html(data.content);
+			}
+		});
+	</script>
+</html>

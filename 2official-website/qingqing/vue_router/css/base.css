@@ -1,0 +1,66 @@
+/* CSS Document */
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6 {
+	font-family: '华文细黑', arial, 'Hiragino Sans GB', 宋体, sans-serif;
+	color: #262626;
+	font-size: 26px;
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	background: #ededed;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body, figure, p, dl, dd, dt, ul, li {
+	margin: 0
+}
+h1, h2, h3, h4, h5, h6 {
+	font-style: normal;
+}
+a {
+	text-decoration: none
+}
+a:hover {
+	cursor: pointer;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+img, td, th {
+	border: none;
+}
+img, li {
+	vertical-align: top;
+}
+em {
+	font-style: normal;
+}
+a, button, textarea, div, li, img, span, input {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+input{
+	outline:none
+}
