@@ -1,0 +1,19 @@
+.main-header{width: 100%;height: 90px;position: fixed;top:0;left: 0;}
+.main-header .bg{width: 100%;height: 100%;background: #fff;opacity: .6;position: absolute;top:0;left: 0;z-index: -10;}
+.main-header .main-box{width: 1024px;margin: 0 auto;position: relative;}
+.main-header .logo{float:left;margin: 16px 0 0 50px;}
+.main-header .logo img{width: 188px;height: 62px;}
+.main-section{width: 100%;}
+.main-section .banner-top{width: 100%;height: 360px;}
+.main-section .banner-top img{width: 100%;height: 100%;}
+.product-cabinet{position:absolute;top:10px;right: 20px;}
+.product-cabinet a{display:inline-block;padding:4px 8px;border:1px solid #8d8d8d;font-size: 13px;}
+.main-header .nav{float:right;margin-top:56px;border-top:1px dashed #fff;}
+.main-header .nav .nav-tab{float:left;display: inline-block;padding:8px 12px;position: relative;}
+.main-header .nav-tab a{display: inline-block;width: 100%;height: 100%;color:#fff;font-weight: 600;}
+.main-header .nav-list{position: absolute;top:100%;left: -50%;width: 200px;display: none;}
+.main-header .nav-list.active{display: block;}
+.main-header .nav-list li{float: left;}
+.main-header .nav-list li+li{border-left: 1px solid #fff;}
+.main-header .nav-list a{padding: 2px 12px;}
+
